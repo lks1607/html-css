@@ -14,12 +14,12 @@
 
 | tag | 브라우저가 content를 구별하기 위해 사용 태그는 열면 항상 닫아야함 |
 | --- | ----------------------------------------------------------------- |
-| h1  | header number 1 title에 사용 <h1>~<h6>까지 존재                   |
+| h1  | header number 1 title에 사용 h1~h6까지 존재                       |
 | ol  | ordered list(순서가 중요한경우)                                   |
 | ul  | unordered list(순서가 중요하지 않은경우)                          |
-| li  | list item / <ol>,<ul>태그의 목록을 만들어줌                       |
-| a   | anchor / 링크태그 /<a href="링크" target="_blank">content</a>     |
-| img | image태그 /self-closeing tag / <img src="링크" />                 |
+| li  | list item / ol,ul태그의 목록을 만들어줌                           |
+| a   | anchor / 링크태그 /a href="링크" target="\_blank"content/a        |
+| img | image태그 /self-closeing tag / img src="링크"                     |
 
 # CSS
 

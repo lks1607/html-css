@@ -7,8 +7,18 @@
     브라우저가 text파일을 이해해서 웹사이트가 됨 (브라우저는 text파일임)
     브라우저는 2가지에서 3가지 text로 이루어져있음 (HTML / CSS / JavaScript)
     tag가 있고 그안에 content가 있음
-    <head>는 웹사이트의 환경을 설정 / <head>안 태그들은 html에서 보이지 않음
+    html lang="" - lang은 language의 준말 검색엔진들에게 도움되기 위해 사용 사이트 주된 언어를 알려주기 위해 사용
     <body>는 사용자가 볼 수 있는 content를 보여줌
+
+### [html태그](https://developer.mozilla.org/ko/docs/Web/HTML/Element)
+
+| head         | 웹사이트의 환경을 설정 / head 안 태그들은 html에서 보이지 않음                                            |
+| ------------ | --------------------------------------------------------------------------------------------------------- |
+| meta         | 부가적인 정보 / 요소는 title,base,link,style,script를 사용 표현할수없는 다양한 종류의 메타데이터를 나타냄 |
+| meta         | enrodml attribute를 가지고 있음 / content,name 구성                                                       |
+| meta         | meta property="og:image" content="" - 공유될떄 보여지는 이미지                                            |
+| meta charset | 한글이나 다른 특수문자가 있는언어를 위해 meta charset=utf-8 은 잊지말고 넣을것                            |
+| link         | rel="" type="" sizes="" href=""로 골라서 사용                                                             |
 
 ### tag
 
@@ -20,6 +30,11 @@
 | li  | list item / ol,ul태그의 목록을 만들어줌                           |
 | a   | anchor / 링크태그 /a href="링크" target="\_blank"content/a        |
 | img | image태그 /self-closeing tag / img src="링크"                     |
+
+| form  | action="" method="" 사용                                                                |
+| ----- | --------------------------------------------------------------------------------------- |
+| input | input type="" 사용 placeholder="text 설명" disable사용시 클릭x required 사용시 필수입력 |
+| type  | text, textarea, password, button, radio, select                                         |
 
 # CSS
 

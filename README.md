@@ -126,6 +126,38 @@
 | ID       | 개체당 하나만 사용할수있음 (#Id값을 이용하여 사용)    |
 | Class    | 여러가지 개체에서 사용가능 (.class값을 이용하여 사용) |
 
+## 고급정의
+
+### [trainsition](https://matthewlein.com/tools/ceaser)
+
+    transition : state가 없는 요소에 붙어야함 / 적용하려면 state에도 transition적용할 요소가 있어야함
+    ex) transition : 요소(all을 쓰면 전부효과적용) 시간(s,ms) ease-in function, 요소 시간 ease-in function;
+
+| ease-in function | trainsition에 들어갈 ease-in function             |
+| ---------------- | ------------------------------------------------- |
+| linear           | 직선으로 움직이게 해줄경우 사용 속도는 일정       |
+| ease-in          | 시작점에서 보다 빨라지면서 움직임                 |
+| ease-out         | 끝에서 느려짐                                     |
+| ease-in-out      | 처음에 느리게 시작했다가 끝날때쯤 느려지면서 끝남 |
+
+### [transform](https://developer.mozilla.org/ko/docs/Web/CSS/transform)
+
+    transform : box element를 변형시키지 않음
+
+### [Animations](https://animista.net/)
+
+    animations : 자동적으로 애니메이션을 가짐 , 거의 transform로 하는것을 권장
+    ex) @keyframes 애니메이션이름 { from{transform:rotatex(0);} to {trasform:rotate(360deg);}}
+        요소 {animation: 애니메이션이름 시간 ease-in function (infinite사용 가능)}
+
+    ex) @keyframes 애니메이션이름{ 0%{transform:rotatex(0);} 50%{transform:rotatex(180deg);} 100%{transform:rotatex(0);} }
+
+### Media Query
+
+    media Query : 모바일,컴퓨터,노트북 같이 해상도 다를 경우에 반응하게 만드는 방법
+    ex) @media screen and (max-width: 400px;){} / @media screen and (min-width: 400px;) and (max-width: 750px;){}
+        @media screen and (orientation: landscape;) = 가로모드일 경우 / @media screen and (orientation: portrait;) = 세로모드
+
 # Javascript
 
 ## 기본정의
@@ -147,3 +179,12 @@
 ```
 
 ```
+
+# git
+
+    git : 파일의 히스토리를 확인 할 수 있음 / 파일을 계속 추적하는 것
+
+## github
+
+    github : git의 변경내역과 파일들을  업로드 하는 공간
+    repository : 코드의 변경내역과 그 히스토리를 갖고 있는 폴더

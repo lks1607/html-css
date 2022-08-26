@@ -10,6 +10,15 @@
 /* 메인화면 로그인폼 */
 @import "./screens/login-form.css";
 
+/* header */
+@import "./components/screen-header.css";
+
+/* friends */
+@import "./screens/friends.css";
+
+/* user-component */
+@import "./components/user-component.css";
+
 *{
     box-sizing: border-box;
 }

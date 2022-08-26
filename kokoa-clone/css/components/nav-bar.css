@@ -11,5 +11,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav__icon{
+    position: relative;
     color: #2e363e;
+}
+
+.nav__notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 50%;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    
+}
+
+.nav__notice{
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    left: 27px;
+    bottom: 28px;
 }

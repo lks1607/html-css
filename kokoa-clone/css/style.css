@@ -1,11 +1,20 @@
 @import "./reset.css";
 @import "./variables.css";
 
+/* compornent */
 /* 상태바 */
 @import "./components/status-bar.css";
-
 /* 네이게이션 바 */
 @import "./components/nav-bar.css";
+
+/* 알림뱃지 */
+@import "./components/badge.css";
+
+/* user-component */
+@import "./components/user-component.css";
+
+
+/* screen */
 
 /* 메인화면 로그인폼 */
 @import "./screens/login-form.css";
@@ -16,8 +25,10 @@
 /* friends */
 @import "./screens/friends.css";
 
-/* user-component */
-@import "./components/user-component.css";
+/* chats */
+@import "./screens/chats.css";
+
+
 
 *{
     box-sizing: border-box;
@@ -25,4 +36,8 @@
 
 body{
     font-family: -apple-sys tem, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}   
+}  
+
+.main-screen{
+    padding: 0 var(--horizontal-space);
+}

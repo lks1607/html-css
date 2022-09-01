@@ -10,3 +10,14 @@
     font-weight: 600;
     color: #fff;
 }
+
+.notice{
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    right: -6px;
+    top: -7px;
+}

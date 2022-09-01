@@ -28,6 +28,9 @@
 /* chats */
 @import "./screens/chats.css";
 
+/* find */
+@import "./screens/find.css";
+
 
 
 *{

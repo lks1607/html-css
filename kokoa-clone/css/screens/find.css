@@ -1,0 +1,132 @@
+.find-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px; 
+}
+
+.find-icons-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.find-icons-icon i{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+
+.find-icons-icon span{
+    font-weight: 600;
+}
+
+.recommended-friends{
+    border-top: var(--main-border);
+    padding: 15px 0;
+}
+
+.recommended-friend-title{
+    font-size: 15px;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.recommended-friends span{
+    display: block;
+    margin: 110px 0;
+    text-align: center;
+    color: var(--gray);
+    opacity: 0.8;
+}
+
+.open-chat{
+    border-top: var(--main-border);
+}
+
+.open-chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray);
+    padding-top: 15px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.open-list{
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: var(--main-border);
+}
+
+.open-list-title{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.open-list-hashtags{
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: var(--gray);
+    margin-bottom: 5px;
+}
+
+.open-list-members{
+    display: flex;
+    align-items: center;
+}
+
+.open-list-members img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-list-members-count{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.open-list-members .divider{
+    width: 2px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: var(--gray);
+}
+
+.open-list-member-status{
+    color: #ffb0e0;
+}
+
+.open-list-photo{
+    position: relative;
+}
+
+.open-list-photo img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+}
+
+.open-post-heart{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--gray);
+    right: 8px;
+    bottom: 5px
+    
+}
+
+.open-post-heart span{
+    margin-left: 5px;
+}

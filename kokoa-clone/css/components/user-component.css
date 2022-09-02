@@ -44,6 +44,11 @@
     padding-left: 2px;
 }
 
+.user-component-subtitle i{
+    margin-left: 5px;
+    color: tomato;
+}
+
 .user-component-image-xs{
     width: 60px;
     height: 60px;

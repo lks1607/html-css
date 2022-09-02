@@ -13,6 +13,9 @@
 /* user-component */
 @import "./components/user-component.css";
 
+/* icons-row */
+@import "./components/icons-row.css";
+
 
 /* screen */
 
@@ -30,6 +33,9 @@
 
 /* find */
 @import "./screens/find.css";
+
+/* more */
+@import "./screens/more.css";
 
 
 

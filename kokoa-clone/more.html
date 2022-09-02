@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Chats - kokoa talk</title>
+    <title>More - kokoa talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -30,11 +30,10 @@
 
     <!-- header -->
     <header class="screen-header">
-      <h1 class="screen-header_title">Chats</h1>
+      <h1 class="screen-header_title">More</h1>
 
       <div class="screen-header_icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-regular fa-comments -fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span>
           <a href="setting.html">
@@ -45,50 +44,80 @@
       </div>
     </header>
 
-    <!-- main screen -->
+    <!-- maing screen -->
   <main class="main-screen">
-
-    <div class="user-component">
-        <div class="user-component__column">
-          <img src="./img/kakao.png" class="user-component-image user-component-image-xs"/>
-            <div class="user-component__name">
-              <h4 class="user-component-title">CoCoaTalk</h4>
-              <h6 class="user-component-subtitle">Please check My Cocoa Account Info</h6>
-            </div>
-        </div>
-        <div class="user-component__column">
-            <span class="user-component-time">21:22</span>
-            <div class="badge">1</div>  
-        </div>
-    </div>    
-
     <div class="user-component">
       <div class="user-component__column">
-        <img src="./img/kakao.png" class="user-component-image user-component-image-xs"/>
-          <div class="user-component__name">
-            <h4 class="user-component-title">CoCoaTalk</h4>
-            <h6 class="user-component-subtitle">Please check My Cocoa Account Info</h6>
-          </div>
+        <img src="./img/me.jpg" class="user-component-image user-component-image"/>
+        <div class="user-component__name">
+          <h4 class="user-component-title">이경섭</h4>
+          <h6 class="user-component-subtitle">+82 10-2296-1607<i class="fa-solid fa-circle-exclamation"></i></h6>
+          
+        </div>
+        
       </div>
       <div class="user-component__column">
-          <span class="user-component-time">21:22</span>
-          <div class="badge">1</div>  
+        <a href="#">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </a>
+      </div>
+    </div>  
+        
+    <div class="icons-row">
+      <div class="icons-row-icon">
+          <i class="fa-regular fa-calendar-check fa-2x"></i>
+          <span>Calendar</span>
+      </div>
+
+      <div class="icons-row-icon">
+          <span>
+            <span class="notice"></span>
+            <i class="fa-solid fa-box-archive fa-2x"></i>
+          </span>
+          <span>Talk Drive</span>
+      </div>
+
+      <div class="icons-row-icon">
+          <i class="fa-regular fa-face-smile fa-2x"></i>
+          <span>Emoticons</span>
+      </div>
+
+      <div class="icons-row-icon">
+          <i class="fa-solid fa-brush fa-2x"></i>
+          <span>Themaes</span>
+      </div>
+
+      <div class="icons-row-icon">
+          <i class="fa-regular fa-circle-check fa-2x"></i>
+          <span>Account</span>
+      </div>
+
+      <div class="icons-row-icon">
+          <i class="fa-regular fa-comments fa-2x"></i>
+          <span>Openchat</span>
       </div>
     </div>
-    
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="./img/kakao.png" class="user-component-image user-component-image-xs"/>
-          <div class="user-component__name">
-            <h4 class="user-component-title">CoCoaTalk</h4>
-            <h6 class="user-component-subtitle">Please check My Cocoa Account Info</h6>
-          </div>
+
+  <div class="suggestions">
+
+    <h2 class="suggestions-title">Suggestions</h2>
+
+    <div class="suggestions-icons">
+      <div class="suggestions-icons-icon">
+          <img src="./img/kakao.png" class="suggestions-icon-image">
+          <span class="suggestions-icon-text">Cocoa Story</span>
       </div>
-      <div class="user-component__column">
-          <span class="user-component-time">21:22</span>
-          <div class="badge">1</div>  
+      <div class="suggestions-icons-icon">
+          <img src="./img/kakao.png"  class="suggestions-icon-image">
+          <span class="suggestions-icon-text">cocoa friends</span>
       </div>
-    </div> 
+      <div class="suggestions-icons-icon">
+          <img src="./img/kakao.png"  class="suggestions-icon-image">
+          <span class="suggestions-icon-text">Friends Gem</span>
+      </div>
+    </div>
+
+  </div>
 
   </main>
 
@@ -102,8 +131,7 @@
           </li>                 
           <li class="nav__btn">
             <a class="nav__icon" href="Chat.html">
-              <span class="nav__notification badge">1</span>
-              <i class="fa-solid fa-comment fa-2x"></i>
+              <i class="fa-regular fa-comment fa-2x"></i>
             </a>
           </li> 
           <li class="nav__btn">

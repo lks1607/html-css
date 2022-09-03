@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Chats - kokoa talk</title>
+    <title>Chat - kokoa talk</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -19,107 +19,37 @@
       </div>
       <div class="status-bar__column">
         <!-- Lock Icon -->
-        <i class="fa-solid fa-lock"></i>
+        <i class="fa-solid fa-lock fa-lg"></i>
         <span>11%</span>
         <!-- battery icon -->
         <i class="fa-solid fa-battery-half fa-lg"></i>
         <!-- Lightning icon -->
-        <i class="fa-solid fa-bolt"></i>
+        <i class="fa-solid fa-bolt fa-lg"></i>
       </div>
     </div>
 
-    <!-- header -->
-    <header class="screen-header">
-      <h1 class="screen-header_title">Chats</h1>
-
-      <div class="screen-header_icons">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-regular fa-comments -fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span>
-          <a href="setting.html">
-            <span class="notice"></span>
-            <i class="fa-solid fa-gear fa-lg"></i>
-          </a>
-        </span>
+    <header class="alt-header">
+      <div class="alt-header-column">
+        <a href="./more.html">
+          <i class="fa-solid fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-header-column">
+        <h1 class="alt-header-title">Cocoatalk</h1>
+      </div>
+      <div class="alt-header-column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-bars fa-lg"></i>
       </div>
     </header>
 
-    <!-- main screen -->
+
+    <!-- maing screen -->
   <main class="main-screen">
-
-    <div class="user-component">
-        <div class="user-component__column">
-          <img src="./img/kakao.png" class="user-component-image user-component-image-xs"/>
-            <div class="user-component__name">
-              <h4 class="user-component-title">CoCoaTalk</h4>
-              <h6 class="user-component-subtitle">Please check My Cocoa Account Info</h6>
-            </div>
-        </div>
-        <div class="user-component__column">
-            <span class="user-component-time">21:22</span>
-            <div class="badge">1</div>  
-        </div>
-    </div>    
-
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="./img/kakao.png" class="user-component-image user-component-image-xs"/>
-          <div class="user-component__name">
-            <h4 class="user-component-title">CoCoaTalk</h4>
-            <h6 class="user-component-subtitle">Please check My Cocoa Account Info</h6>
-          </div>
-      </div>
-      <div class="user-component__column">
-          <span class="user-component-time">21:22</span>
-          <div class="badge">1</div>  
-      </div>
-    </div>
-    
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="./img/kakao.png" class="user-component-image user-component-image-xs"/>
-          <div class="user-component__name">
-            <h4 class="user-component-title">CoCoaTalk</h4>
-            <h6 class="user-component-subtitle">Please check My Cocoa Account Info</h6>
-          </div>
-      </div>
-      <div class="user-component__column">
-          <span class="user-component-time">21:22</span>
-          <div class="badge">1</div>  
-      </div>
-    </div> 
-
+   
   </main>
 
-    <!-- nav bar -->
-    <nav class="nav">
-      <ul class="nav__list">
-          <li class="nav__btn">
-            <a class="nav__icon" href="friends.html">
-                <i class="fa-regular fa-user fa-2x"></i>
-            </a>
-          </li>                 
-          <li class="nav__btn">
-            <a class="nav__icon" href="Chat.html">
-              <span class="nav__notification badge">1</span>
-              <i class="fa-solid fa-comment fa-2x"></i>
-            </a>
-          </li> 
-          <li class="nav__btn">
-            <a class="nav__icon" href="find.html">
-              <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-            </a>
-          </li>
-          <li class="nav__btn">
-            <a class="nav__icon" href="more.html">
-              <span class="notice"></span>
-              <i class="fa-solid fa-ellipsis fa-2x"></i>
-            </a>
-          </li>
-        </ul>
-    </nav>
-
+    
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/e0ae35985b.js"

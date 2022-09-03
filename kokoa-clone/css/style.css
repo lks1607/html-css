@@ -2,6 +2,7 @@
 @import "./variables.css";
 
 /* compornent */
+
 /* 상태바 */
 @import "./components/status-bar.css";
 /* 네이게이션 바 */
@@ -15,6 +16,9 @@
 
 /* icons-row */
 @import "./components/icons-row.css";
+
+/* alt-screen-header */
+@import "./components/alt-screen-header.css";
 
 
 /* screen */
@@ -36,6 +40,12 @@
 
 /* more */
 @import "./screens/more.css";
+
+/* setting */
+@import "./screens/setting.css";
+
+/* chat */
+@import "./screens/chat.css";
 
 
 

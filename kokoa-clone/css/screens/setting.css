@@ -1,7 +1,3 @@
-.main-screen{
-    height: 100vh;
-}
-
 .settings-setting{
     display: flex;
     align-items: center;
@@ -17,11 +13,11 @@
     margin-right: 15px;
     opacity: 0.7;
 }
-
+/* 
 .setting-tap{
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .settings-setting-column{
     display: flex;
@@ -39,4 +35,5 @@
 
 .down{
     padding: 25px 0;
+    padding-bottom: 60px;
 }

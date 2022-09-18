@@ -1,5 +1,6 @@
-.main-screen{
-    height: 100vh;
+.setting-screan{
+    padding: 0 var(--horizontal-space);
+    padding-top: 80px;
 }
 
 .settings-setting{
@@ -12,6 +13,7 @@
     justify-content: space-between;
 
 }
+
 
 .settings-setting i{
     margin-right: 15px;
@@ -27,6 +29,11 @@
     display: flex;
     align-items: center;
 }
+
+.version-detail, .theme-detail{
+    opacity: 0.4;
+}
+
 
 .up{
     padding: 25px 0;

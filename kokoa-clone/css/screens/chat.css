@@ -1,6 +1,6 @@
 #chat-screen{
     background-color: #abc1d1;
-    height: 11000vh;
+    height: 200vh;
 }
 
 #chat-screen .alt-header{
@@ -25,6 +25,8 @@
     align-items: center;
 }
 
+
+
 .chat-timestamp{
     color: #fff;
     background-color: #92a4b2;
@@ -38,6 +40,19 @@
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn{
+    from{
+        transform: translatex(-30px);
+        opacity: 0;
+    }
+
+    to{
+        transform: none;
+        opacity: 1;
+    }
 }
 
 .message-row img{
@@ -72,7 +87,22 @@
 }
 
 .message-row-own{
+    opacity: 0;
     justify-content: flex-end;
+    animation: fadeIn2 0.5s linear forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn2{
+    from{
+        transform: translatex(30px);
+    }
+
+    to{
+        transform: none;
+        opacity: 1;
+        
+    }
 }
 
 .message-row-own .message-bubble{
@@ -84,9 +114,90 @@
     margin-left: 5px;
 }
 
+
 .message-row-own .message-info{
    flex-direction: row-reverse;
 }
 
+.reply{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    transition: all .3s linear;
+}
 
+.reply i{
+    opacity: 0.5;
+}
 
+.reply-column button i {
+    opacity: 1;
+}
+
+.reply .reply-column:first-child{
+    width: 10%;
+}
+
+.reply .reply-column:last-child{
+    width: 90%;
+    position: relative;
+}
+
+.reply input{
+    padding: 10px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+    transition: transform .3s ease-in-out;
+}
+
+.reply-column:last-child > i,
+.reply-column:last-child button{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.reply-column:last-child > i{
+    right: 40px;
+}
+
+.reply-column:last-child button{
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 4px;
+    right: 4px;
+}
+
+.reply-column:last-child button:focus,
+.reply-column:last-child button:active{
+    outline: none;
+}
+
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button,
+.reply:focus-within .reply-column:first-child{
+    opacity: 0;
+}
+
+.reply .fa-face-smile,
+.reply button,
+.reply .reply-column:first-child{
+    transition: opacity .3s ease-in-out;
+}
+
+.reply:focus-within{
+    transform: translateY(80px);
+}
+.reply input:focus{
+    width: 95vw;
+    transform: translateX(-10%) translateY(-80px);
+}

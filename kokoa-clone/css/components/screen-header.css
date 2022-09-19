@@ -19,3 +19,16 @@
 .screen-header_icons span{
     margin-left: 20px;
 }
+
+.screen-header_icons .fa-gear:hover{
+    animation: rategear 1s linear infinite;
+}
+
+@keyframes rategear{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
